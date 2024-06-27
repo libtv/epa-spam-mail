@@ -1,0 +1,430 @@
+@charset "utf-8";
+
+/* skip navigation*/
+.sknavi,.sknavi2,.sknavi3,.sknavi4,.sknavi5 { position:absolute ; top:-500px; }
+.sknavi:focus, .sknavi:active { top:1px; left:1px; display:block ; width:100px ; height:20px ; }
+.sknavi2:focus, .sknavi2:active { top:1px ; left:100px; display:block ; width:100px ; height:20px ; }
+.sknavi5:focus, .sknavi5:active { top:1px ; left:200px; display:block ; width:100px ; height:20px ; }
+.sknavi4:focus, .sknavi4:active { top:1px ; left:300px; display:block ; width:100px ; height:20px ; }
+.sknavi3:focus, .sknavi3:active { top:1px ; left:400px; display:block ; width:100px ; height:20px ; }
+
+
+/*bar*/
+.bar{color:#ccc;margin-right:4px; margin-left:3px;}
+
+/*logo*/
+#top_logo{width:980px;}
+
+
+/*color*/
+.bl{color:#065caa;}
+.yl{color:#e07000;}
+.rd{color:red;}
+.pp{color:#5642c5;}
+
+
+
+/*title*/
+.sub_tit2{width:740px;text-align:left;border-top:1px solid #1a98cc; font-size:24px;color:#065caa;font-weight:bolder;line-height:42px;background-image:url('https://www.crosscert.com/images/bg_sub_tit.gif');height:50px;margin: 1px 0 10px;}
+.sub_tit3{text-align:left;border-top:1px solid #1a98cc; font-size:24px;color:#065caa;font-weight:bolder;line-height:42px;background-image:url('https://www.crosscert.com/images/bg_sub_tit.gif');height:50px;margin: 1px 0 10px;}
+.sub_tit{font-family: 'NanumGothic'; width:740px;text-align:left;border-top:1px solid #1a98cc; font-size:24px;color:#065caa;font-weight:bolder;line-height:120%;background-image:url('https://www.crosscert.com/images/bg_sub_tit.gif');height:50px;margin-bottom:10px;}
+.tit_1{background-color:#1a98cc;color:#fff;padding:3px 10px;line-height:150%;font-weight:bolder;font-size:14px;letter-spacing:-0.02em;border-bottom:3px solid #e5e5e5;text-align:center;}
+.tit_2{text-align: left;font-size:18px; font-weight:bolder;color:#065caa; background:url(https://www.crosscert.com/images/icon_squre.gif) no-repeat 0 5px;padding:0 0 0 12px; line-height:120%; letter-spacing:-0.02em;}
+.tit_3{font-size:12px; font-weight:bolder;color:#065caa; background:url(https://www.crosscert.com/images/icon_squre_2.gif) no-repeat 0 8px;padding:0 0 0 8px; line-height:120%; letter-spacing:-0.02em;}
+
+
+.tit_4{font-family: 'NanumGothic'; font-size:18px; font-weight:bolder;color:#065caa; background:url(https://www.crosscert.com/images/icon_squre.gif) no-repeat 0 5px;padding:0 0 0 12px; line-height:20px; letter-spacing:-0.02em;}
+/*moo*/
+
+
+/*h*/
+h1{color:#000;font-size:14px;font-weight:bolder;letter-spacing:-0.05em;}
+h2{color:#065caa;font-size:18px;font-weight:bolder;letter-spacing:-0.05em;}
+h3{color:#065caa;font-size:14px;font-weight:bolder;letter-spacing:-0.05em;}
+h2.title{position:absolute;top:-10px;left:0;display:block;z-index:-9999;text-indent:-9999px}
+
+/* left banner */
+#left_banner{clear:both;padding-top:10px;}
+
+/*left menu*/
+.left_navi{width:100%;background:url(https://www.crosscert.com/images/left_menu_02.gif) repeat-y;text-align:left}
+.left_tit{padding-top:20px;margin:0;font-size:18px;color:#065caa;font-weight:bolder;text-align:center; height:50px;background:url('https://www.crosscert.com/images/left_menu_top.gif') no-repeat;letter-spacing:-0.03em; line-height:22px;}
+.left_navi ol {clear:both;margin-left:7px;width:196px;}
+.left_navi ol li{clear:both;border-bottom:1px dotted #ccc;text-align:left;padding:8px 0;list-style:none; }
+.left_navi ol li a{font-size:14px; line-height:15px; font-weight:bolder;letter-spacing:-0.05mm;padding:0 0 0 20px; margin-left:10px;}
+.left_navi ol li a:link {color:#333;}
+.left_navi ol li a:visited{color:#333;}
+.left_navi ol li a:active{color:#065caa;text-decoration:none; background:url(https://www.crosscert.com/images/left_menu_check.gif) no-repeat;padding:0 0 0 20px; margin-left:10px;}
+.left_navi ol li a:hover,.left_navi ol li a:focus{color:#065caa;text-decoration:none; background:url(https://www.crosscert.com/images/left_menu_check.gif) no-repeat;padding:0 0 0 20px; margin-left:10px;}
+.left_navi ol li a.cate_chk{background:url(https://www.crosscert.com/images/left_menu_check.gif) no-repeat;padding:0 0 0 20px; margin-left:10px;}
+.left_btm{clear:both;height:24px;background:url('https://www.crosscert.com/images/left_menu_03.gif') no-repeat}
+.left_menu_td{border-bottom:1px dotted #ccc;height:32px}
+
+
+
+
+/*sitemap*/
+
+.sitemap{width:170px; margin: 1em 0; font-size:18px; font-weight:bolder;color:#065caa; background:url('https://www.crosscert.com/images/icon_squre.gif') no-repeat 0 50%;padding:0 0 0 10px}
+
+.sitemap2{clear:both;cursor:hand;width:170px;font-size:13px;padding:5px 0;}
+
+.sitemap2 > a {display: block;padding: 5px 0;font-weight: bold;    border-bottom: 1px solid #cccccc;}
+.sitemap3{width:170px;background-color:#f2f2f2;padding-bottom: 5px;}
+.left_menu_active{font-size:14px; line-height:15px; font-weight:bolder; letter-spacing:-0.05mm;   padding:10px 0px 8px 35px; color:#065caa; background:url(https://www.crosscert.com/images/left_menu_check.gif) no-repeat 15 8px;height:32px;}
+
+/*tab*/
+.tabmenu{width:100%;height:30px;text-align:center;font-weight:bolder;color:#065caa;border-bottom:1px solid #1a98cc;margin-bottom: 10px}
+.tabmenu a {display: inline-block;}
+.tab_on{font-size:14px;font-weight:bolder;letter-spacing:-0.1mm;color:#065caa;height:29px;border:1px solid #1a98cc;border-bottom:1px solid #fff;background:#fff;padding:0px 20px;}
+.tab_out{display: inline-block;margin-bottom: 1px;vertical-align: top;background-color:#f9f9f9;color:#888;padding:0px 20px;height:29px;border:1px solid #ddd;border-bottom:none;}
+.tab_text_out{/* background-color:#f9f9f9; */color:#888;}
+.tabmenu p{margin:0;padding:0;padding-top:5px}
+.faq .tab{width:650px;overflow:hidden}
+.faq ul.nav{width:840px;height:45px;}
+.faq ul.nav li{float:left;}
+
+#tabMenu{border-bottom:1px solid #1a98cc;height:31px;}
+#tabMenu>ul{margin-left:20px;}
+#tabMenu>ul>li{display:block;width:115px;height:30px;line-height:30px;border:1px solid #cccccc; background:#f9f9f9;border-bottom:1px solid #1a98cc;float:left;margin-left:3px;}
+#tabMenu>ul>li.active{border:1px solid #1a98cc; background:#fff;border-bottom:1px solid #fff;font-weight:bold}
+#tabMenu>ul>li strong{color:#065caa;}
+
+
+
+/* Menu */
+.menu{position:relative;clear: both;width:988px;height:81px;margin:auto;}
+div.default{background-image:url(https://www.crosscert.com/images/common/menu/menu_default.jpg);background-repeat:no-repeat;}
+div.default_spring{background-image:url(../images_spring/menu_default.jpg);background-repeat:no-repeat;}
+div.default_fall{background-image:url(../images_fall/menu_default.jpg);background-repeat:no-repeat;}
+
+li{ }
+
+div.glca{background-image:url(https://www.crosscert.com/images/common/menu/menu_glca.jpg);background-repeat:no-repeat;}
+div.symantec{background-image:url(https://www.crosscert.com/images/common/menu/menu_ssl.png);background-repeat:no-repeat;}
+div.solution{background-image:url(https://www.crosscert.com/images/common/menu/menu_solution.jpg);background-repeat:no-repeat;}
+div.community{background-image:url(https://www.crosscert.com/images/common/menu/menu_community.jpg);background-repeat:no-repeat;}
+div.company{background-image:url(https://www.crosscert.com/images/common/menu/menu_company.jpg);background-repeat:no-repeat;}
+.menu ul{height:46px;width:100%}
+.menu ul > li{float:left;font-size:16px;font-weight:bold;text-align:center;}
+.menu ul > li > a {display: inline-block;height: 28px;padding-top: 12px;}
+.menu ul > li > a:link{color:#fff;}
+.menu ul > li > a:visited{color:#fff;}
+.menu ul > li > a:active{color:#fff;text-decoration: none;}
+.menu ul > li > a:hover,.menu ul li a:focus{color:#fff;text-decoration: none;}
+.menu ul > li.nth1{width:163px}
+.menu ul > li.nth2{width:172px}
+.menu ul > li.nth3{width:152px}
+.menu ul > li.nth4{width:174px}
+.menu ul > li.nth5{width:158px}
+.menu ul > li.nth6{width:165px}
+.menu ol{position: absolute;top: 44px;left: 0;clear: both;width:auto;height:35px;margin:auto;display:none;}
+.menu ol li{list-style:none;float:left;font-size:13px;font-weight:bold;margin-left:30px;padding-top:5px}
+
+
+.menu ol.community{margin-left:450px}
+.menu ol.company{margin-left:470px}
+
+.menu ol li a{padding-left:15px;}
+.menu ol li a:link{color:#666;}
+.menu ol li a:visited{color:#666;}
+.menu ol li a:active{color:#666;text-decoration: none;}
+.menu ol li a:hover,.menu ol li a:focus{color:#000;text-decoration: none;background:url(https://www.crosscert.com/images/common/menu/checked_sub.png) no-repeat}
+.menu ol li a.sub_chk{background:url(https://www.crosscert.com/images/common/menu/checked_sub.png) no-repeat;color:#000;}
+.menu ul > li > a.menu_chk{background:url(https://www.crosscert.com/images/common/menu/checked.png) 0 46% no-repeat;padding-left:15px}
+#menu_sub_right{width:988px; margin:auto; text-align:right;}
+#menu_sub_right ol{ padding:0 20px 0 0; margin:0px; }
+#menu_sub_right li{ padding:0px; margin-left:30px; }
+
+/* glca */
+.glca_favorite{border:1px solid #b8136f; border-radius:3px; margin-right:15px; width:265px;box-shadow: 0px 3px 0px #f5f5f5; }
+.glca_favorite li{font-size:15px; color:#b8136f; font-weight:bold; padding:25px 0px 25px 30px;}
+
+.table1{width:100%;border-collapse:collapse;border-bottom:2px solid #1a98cc;border-top:2px solid #1a98cc; border-left:2px solid transparent;  border-right:2px solid transparent; }
+.table1 td,.table1 th{border:1px solid #c3e1eb; padding:7px;}
+.table1 th{font-size:12px;background-color:#f5fbfd;color:#065caa;font-weight:bolder;line-height: 110%;padding:7px 0px;text-align:center;}
+
+.table2{clear:both;background-color:silver;border:solid 1px #ccc;}
+.table2 td,.table2 th{padding:3px;text-align:center;font-size:12px;}
+.table2 th{font-weight:normal;background-color:rgb(247, 247, 247);padding:5px;}
+.table2 td{background-color:#fff}
+
+.table3{width:100%;border:0;}
+.table3 td{height:29px;border-bottom:solid 1px #eee}
+.table3 th{border-top:1px solid #ddd;border-bottom:1px solid #ddd;height:34px;font-weight:bold;color:#505050;font-size:12px;}
+
+.table4{border-bottom: medium none; border-left: medium none; margin: auto auto auto 5.4pt; border-collapse: collapse; border-top: medium none; border-right: medium none; mso-border-alt: solid windowtext .5pt; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext; mso-yfti-tbllook: 1184}
+.table5{clear:both;width:100%;border-collapse:collapse;border-bottom:1px solid #ddd;border-top:1px solid #ddd;}
+.table5 td,.table5 th{border:1px solid #ddd;padding:5px}
+.table5 th{font-size:12px;background-color:#f9f9f9;font-weight:bolder;padding:10px 0}
+
+
+
+.table6{width:100%; color:#333;border-collapse:collapse;border-bottom:1px solid #c3e1eb;border-top:2px solid #c3e1eb; border-left:2px solid #fff; border-right:2px solid #fff;font-size:14px; text-align:center; line-height: 110%;}
+.table6 td,.table6 th{border:1px solid #c3e1eb; background:#f5fbfd; font-size:14px; padding:7px 0px;}
+.table6 th{ background:#fff; font-weight:bolder; }
+.table6 span{font-size:11px;}
+.table6 b{font-size:24px;}
+
+/*symantec*/
+.vsTxt{position:relative;clear:both:margin-top:10px;width:540px;height:390px;background:url(https://www.crosscert.com/images/service_global/vsTxt02_bg.jpg) no-repeat}
+.vsTxt div{position:absolute;}
+.vsTxt p{padding:0;margin:0;color:#2c2c2c}
+.vsTxt p.gold{color:#92693d}
+.vsTxt p.gray{color:#4a4a4a}
+
+/*solution*/
+#solution_inquire{ margin-right: 0px; width: 100px;}
+#solution_inquire span{width: 100px; height: 30px; line-height: 30px;display: block; font-weight: bold; text-align: center;}
+#solution_inquire a{color: #4c6cbf; border:2px solid #4c6cbf; display: block;text-decoration: none;  }
+#solution_inquire a:hover,#solution_inquire a:active{ background: #4c6cbf; color: #fff }
+
+#soluBanner{width:208px; border: 1px solid #ccc; font-size : 14px; padding: 8px 0px 12px; border-radius: 2px; box-shadow: 0px 2px #f2f2f2; }
+#soluBanner b{color: #4f33eb;}
+#soluBanner p{font-weight:bold; padding:0;margin:0;line-height:120%; margin-top:10px; }
+#soluBanner hr{ width: 90%; border: 0px; border-top: 1px solid #eaeaea}
+
+
+.solution_box{clear:both;position:relative;margin-top:20px;width:700px;height:528px;background:url(https://www.crosscert.com/images/img_03_0_00.gif) no-repeat}
+.solution_box div{position:absolute;color:#666;font-size:11px;width:229px;height:155px;}
+.solution_box div p{margin:0;padding:0;line-height:160%;text-align:left;font-weight:bold}
+.b{color:#000;text-decoration: underline}
+.solution_cipa{clear:both;margin-top:20px;width:740px;height:99px;background-color:#f5f5f5;color:#666;font-weight:bold;font-size:14px;line-height:160%}
+.ocsp{position:relative;width:700px;height:599px;background:url(https://www.crosscert.com/images/03_1_05_02.gif) 50% no-repeat;border:solid 1px #ccc}
+.ocsp div{position:absolute;}
+.ocsp .bora{color:#6e54cd;font-size:16px;font-weight:bold}
+.ocsp ul{line-height:150%;padding-left:0px; margin:0px;text-align:left;color:#666;font-size:11px;font-weight:bold }
+.solu_03_2_05_2{clear:both;position:relative;width:680px;height:345px;background:url(https://www.crosscert.com/images/img_03_2_05_2.gif) no-repeat}
+.solu_03_2_05_2 h6{position:absolute;background:url(https://www.crosscert.com/images/img_03_2_05_2_t.gif) no-repeat;text-indent:-9999px;width:112px;height:50px;top:135px;left:274px;margin-top:10px;padding:0;}
+.solu_03_2_05_2 li{position:absolute;color:#5f4dc4;font-weight:bold;line-height:150%;margin:0;padding:0;}
+
+.solu_03_2_06_2_01{clear:both;position:relative;width:680px;height:490px;background:url(https://www.crosscert.com/images/img_03_2_06_2_01.gif) no-repeat}
+.solu_03_2_06_2_01 h4{position:absolute;background:url(https://www.crosscert.com/images/img_03_2_06_2_01_t.gif) no-repeat;text-indent:-9999px;width:94px;height:47px;top:210px;left:285px;margin-top:10px;padding:0;}
+.solu_03_2_06_2_01 dt{position:absolute;color:#5f4dc4;font-weight:bold;line-height:130%;font-size:16px;}
+.solu_03_2_06_2_01 dd{position:absolute;color:#666;font-size:11px;line-height:150%;text-align:left}
+
+.soul_03_2_07_01{clear:both;position:relative;width:680px;height:520px;background:url(https://www.crosscert.com/images/img_03_2_07_01.gif) no-repeat}
+.soul_03_2_07_01 h4{position:absolute;background:url(https://www.crosscert.com/images/img_03_2_07_01_t.gif) no-repeat;margin-top:10px;padding:0;text-indent:-9999px;width:165px;height:72px;top:150px;left:253px}
+.soul_03_2_07_01 p{position:absolute;margin-top:13px;padding:0;color:#fff;font-weight:bold;line-height:120%;font-size:16px;}
+.soul_03_2_07_01 ol{position:absolute;text-align:left;}
+
+.solu_03_3_01_01{clear:both;position:relative;width:680px;height:383px;background:url(https://www.crosscert.com/images/img_03_3_01_01.gif) no-repeat;font-size:11px;line-height:120%}
+.solu_03_3_01_01 h4{position:absolute;font-size:18px;font-weight: 900;margin:0;padding:0;line-height:120%}
+.solu_03_3_01_01 p{position:absolute;color:#fff;font-weight:bold;margin:0;padding:0}
+.solu_03_3_01_01 ul{position:absolute}
+.solu_03_3_01_01 ul li{position:relative;color:#fff;font-weight:bold;height:31px}
+.solu_03_3_01_01 div{position:absolute}
+.solu_03_3_01_01 .cross{position:absolute;width:139px;height:146px;top:217px;left:271px}
+.solu_03_3_01_01 .cross h4{position:relative;width:130px;height:33px;top:0;left:5px;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_3_01_01_c.gif) no-repeat}
+.solu_03_3_01_01 .cross dl{clear:both;margin-top:15px;position:relative;font-weight:bold;font-size:12px}
+.solu_03_3_01_01 .cross dl dt{clear:both;margin:0;padding:0;height:18px}
+.solu_03_3_01_01 .cross dl dd{clear:both;color:#666;margin:0;padding:0}
+.solu_03_3_01_01 .cont{position:absolute;width:179px;height:145px;top:22px;left:250px;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_3_01_01_t.gif) no-repeat}
+.solu_03_3_01_01 .user{position:absolute;width:83px;height:112px;top:235px;left:553px;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_3_01_01_u.gif) no-repeat}
+
+.solu_03_4_03_02{clear:both;position:relative;width:680px;height:309px;background:url(https://www.crosscert.com/images/img_03_4_03_02.gif) no-repeat;font-size:11px;line-height:140%}
+.solu_03_4_03_02 h6{position:absolute;margin:0;padding:0;width:82px;height:67px;top:115px;left:290px;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_4_03_02_t.gif) no-repeat}
+.solu_03_4_03_02 strong{font-size:16px;color:#5f4dc4;font-weight: 900;margin:0;padding:0}
+.solu_03_4_03_02 div{position:absolute;width:240px;height:110px;text-align:left}
+.solu_03_4_03_02 div ul{clear:both;margin-top:15px}
+.solu_03_4_03_02 div ul li{clear:both;height:16px;font-weight:bold;color:#666}
+
+.solu_03_3_02_02{width:680px;height:336px;overflow:hidden;text-align:left;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_3_02_02.gif) no-repeat}
+.solu_03_3_03_2{width:680px;height:507px;overflow:hidden;text-align:left;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_3_03_2.gif) no-repeat}
+.solu_03_6_06{width:680px;height:341px;overflow:hidden;text-align:left;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_6_06.gif) no-repeat}
+.solu_03_4_01_01{width:680px;height:574px;overflow:hidden;text-align:left;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_4_01_01.gif) no-repeat}
+.solu_03_4_02_01{width:680px;height:293px;overflow:hidden;text-align:left;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_4_02_01.gif) no-repeat}
+.solu_03_4_03_01{width:680px;height:253px;overflow:hidden;text-align:left;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_4_03_01.gif) no-repeat}
+.solu_03_4_05_2{width:680px;height:333px;overflow:hidden;text-align:left;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_4_05_2.jpg) no-repeat}
+.solu_03_4_07{width:680px;height:404px;overflow:hidden;text-align:left;text-indent:-9999px;background:url(https://www.crosscert.com/images/img_03_4_07.gif) no-repeat}
+
+/*company*/
+.comp_qa{overflow: hidden;width:100%;border-top:1px solid #1a98cc;border-bottom:1px solid #1a98cc;padding:3px 0;background: url(https://www.crosscert.com/images/icon_q.gif) 100% 50% no-repeat;}
+.comp_qa strong {color: #065caa;padding: 0;margin: 0;}
+.comp_aa{overflow: hidden;width:100%;background: url(https://www.crosscert.com/images/icon_a.gif) 100% 8px no-repeat;}
+.comp_q{background-color:#1a98cc;color:#fff;text-align:center;font-weight:bolder;width:30px;padding:8px 0}
+.comp_t{padding:8px;width:600px}
+.comp_t h3{padding:0;margin:0}
+.comp_bt{width:31px;padding:8px 0 0 0}
+.comp_a{background-color:#f2f2f2;color:#1a98cc;text-align:center;font-weight:bolder;width:30px;height:165px;}
+.comp_business{position:relative;width:710;height:467px;background:url(https://www.crosscert.com/images/img_business.png) no-repeat 50% center}
+.comp_business div{position:absolute; border:1px solid #ccc;padding:10px; border-radius:5px;background:#fff;  box-shadow: 0 3px 0px 0 rgba(0, 0, 0, 0.05);}
+.comp_business div h4{position:relative;font-size:16px;color:#1279bb;margin:0;padding:0}
+.comp_business div ul{position:relative; border-top:1px dashed #a5a5a5; margin-top:5px; padding-top:10px;}
+.comp_business div li{font-size:14px;color:#000;list-style-position: inside;text-align: left; margin-left:5px; list-style-type: disc;}
+
+/* main */
+.main_symantec{clear:both; color:#333;}
+.main_symantec_box{border-radius: 5px;padding-top:5px;border:3px #fec10e solid}
+.main_symantec_box_2{display:block; border-radius: 5px;padding:15px 15px 10px 15px;border:3px #fec10e solid; background:url(https://www.crosscert.com/images/syman_bg.jpg) no-repeat bottom right; text-align:left; }
+.main_symantec span{display:block;}
+.main_symantec ul{margin:0 0 0 20px;}
+.main_symantec ul li{padding-left: 20px;text-align:left;height:18px;background:url(https://www.crosscert.com/images/ico_1.png) no-repeat 4px;color:#000;font-weight:bold;}
+.main_symantec_box_tit{font-size:18px; color:#355bbc; letter-spacing:-0.05em; line-height:120%; font-weight:bold;}
+.main_ssl_btn{position:absolute;top:220px;right:10px;}
+.main_ssl_btn_more{color:#fefefe; background:#333;border-radius: 15px; padding:3px 20px; text-align:center;}
+
+.main_toss_box{clear:both; border-radius: 5px; padding:5px 3px; border:3px #3182f6 solid; }
+
+.main_solution{position:relative;margin-top:10px;padding:13px 0px 7px;width:234px; background: #efefef; border-radius: 5px; border:3px solid #4c6cbf;}
+.main_solution ul{clear:both;margin:5px 0 0 18px;}
+.main_solution ul li{clear:both;padding:1px 0px 3px 15px; line-height: 110%; text-align:left;background:url(https://www.crosscert.com/images/common/menu/checked_sub.png) no-repeat 0px 0px;font-weight:bold;}
+.main_solution ul li img{margin-left:7px}
+.main_solution ul li a{display: block;color:#000; background: url(https://www.crosscert.com/images_fall/btn_2.png) 100% 0 no-repeat;}
+.main_solution a.more{position:absolute;top:200px;right:10px;}
+
+#content_container{float:right;padding:0 0 0 15px; margin-right:0px; margin-bottom:15px; text-align:left; border-left:1px solid #ccc;width:740px; position:relative;margin-bottom:0px;}
+#content{width:100%;text-align:left;padding:15px;}
+#location{clear:both;width:978px; height:25px; text-align:right; font-size:11px; color:#666; padding:0 2px 0 0; margin:auto;}
+#location .link-home {padding-left: 16px;background: url(https://www.crosscert.com/images/icon_home.gif) 0 1px no-repeat;}
+#sub_tit{width:740px;text-align:left;border-top:1px solid #1a98cc; font-size:24px;color:#065caa;font-weight:bolder;line-height:42px;background-image:url('https://www.crosscert.com/images/bg_sub_tit.gif');height:50px;margin-bottom:10px}
+
+#sub_tit2{width:980px;text-align:left;border-top:1px solid #1a98cc; font-size:24px;color:#065caa;font-weight:bolder;line-height:42px;background-image:url('https://www.crosscert.com/images/bg_sub_tit.gif');height:50px;margin-bottom:10px}
+.list{  padding-left:5px;padding-top:2px; margin:0px;}
+.list ol{line-height:150%;padding-left:0px; margin:0px; }
+.list > li{list-style:none; background:url(https://www.crosscert.com/images/icon_dot_01.gif) no-repeat 0 7px; padding-left:10px; margin:0px; margin-bottom:5px}
+
+.lst-dl {margin-top: -10px !important;}
+.lst-dl dt {font-weight: bold;	}
+.lst-dl dd {
+	list-style: none;
+    background: url(https://www.crosscert.com/images/icon_dot_01.gif) no-repeat 0 7px;
+    padding-left: 10px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+/*QuickMenu*/
+#quickMenu{position:absolute;text-align:left;top:-45px;left:-100px;width:94px; margin:0px auto; line-height:130%;}
+#quickMenu ul{clear:both;position:relative;margin-left:5px; width:90%;}
+#quickMenu ul li{border-bottom:1px dotted #ccc; text-align:center;padding:5px 0 3px;}
+
+#quickMenuR{position:absolute;text-align:right;top:-45px;left:990px;}
+
+
+/* Footer */
+.main_foot{width:100%;background-color:#efefef; border-top:1px solid #d9d9d9;margin-top:10px;}
+.main_srch{float:left;width:385px;height:45px;background-image:url('https://www.crosscert.com/images/BG_domain.jpg');background-repeat:no-repeat;margin-top:2px;padding:10px 0 0;}
+.main_srch input#domain_srch{width:364;height:23px;font-size:16px;font-weight:bolder;color:#1e69b7;border:0px;background:transparent;}
+.main_news{float:right;width:475px;padding:2px 0 0 0}
+.main_news ul{width:100%; margin-bottom: 10px;}
+.main_news ul li{clear:both;height:19px;width:100%;margin-bottom: 5px;}
+.main_news ul li span.news_ico{float:left;width: 40px;height: 16px; margin-right: 5px; border-radius:3px ;color: #fff;font-size: 10px;line-height: 16px;}
+.main_news ul li span.ico-news {background: #9E53BB; border: 1px solid #8352BA;}
+.main_news ul li span.ico-event {background: #DA0E50; border: 1px solid #ca0041;}
+.main_news ul li span.ico-notice {background: #0a8826; border: 1px solid #0F942E;}
+.main_news ul li span.p{float:left}
+.main_news ul li span.news_date{float:right;color:#777}
+.main_family{clear:both;width:980px; margin:auto;margin-top:20px;height:31px;border-top:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;}
+.sub_family{clear:both;width:100%;height:31px;border-top:1px solid #d9d9d9;background-color:#fff;}
+.common_foot{clear:both;width:100%;background-color:#efefef;padding:10px 0px;}
+.ico_mark li{float:left;padding:0 5px}
+#copyright{	clear:both;text-align:left;padding-top:10px;color:#555;font-size:11px;font-family:굴림;line-height: 18px;letter-spacing:0em;}
+
+/* sitemap */
+.accordion {}
+.accordion button {background: #FFFFFF url(https://www.crosscert.com/images/arrow-square.gif) no-repeat right -50px;padding: 3px 20px 0 0;height: 25px;margin: 0;font: bold 120%/100% Arial, Helvetica, sans-serif;color: #065caa;font-size: 14px;font-weight: bolder;letter-spacing: -0.05em;border: none;cursor: pointer;}
+.accordion button.active {background-position: right 5px;}
+.accordion p {background: #FFFFFF;margin: 0;padding: 10px 15px 20px;}
+#sitemap_container{clear:both;width:980px;background-color:#fff; border-top:1px solid #ccc;text-align:center;padding:10px 0 13px 0;}
+#sitemap_glca{float:left; text-align:left; padding: 0 38px 0 0;}
+#sitemap_glca ol{line-height:120%;padding-left:0px; margin:0px; }
+#sitemap_glca li{background:url(https://www.crosscert.com/images/icon_dot_01.gif) no-repeat 0 7px; padding:0 0 10px 10px; margin:0px;}
+#sitemap_verisign{float:left; text-align:left; padding: 0 60px 0 0;}
+#sitemap_verisign ol{line-height:120%;padding-left:0px; margin:0px; }
+#sitemap_verisign li{background:url(https://www.crosscert.com/images/icon_dot_01.gif) no-repeat 0 7px; padding:0 0 10px 10px; margin:0px;}
+#sitemap_solution{float:left; text-align:left;}
+#sitemap_solution ol{line-height:120%;padding-left:0px; margin:0px;}
+#sitemap_solution li{background:url(https://www.crosscert.com/images/icon_dot_01.gif) no-repeat 0 7px; padding:0 0 10px 10px; margin:0px;}
+#sitemap_company{float:left; text-align:left;}
+#sitemap_company ol{line-height:120%;padding-left:0px; margin:0px; }
+#sitemap_company li{background:url(https://www.crosscert.com/images/icon_dot_01.gif) no-repeat 0 7px; padding:0 0 10px 10px; margin:0px;}
+#sitemap_gap{float:left; text-align:left; padding: 0 40px 0 0;}
+#sitemap_gap_glca{float:left; text-align:left; padding: 0 19px 0 0;}
+.glca_sitemap, .symantec_sitemap, .solution_sitemap,.company_sitemap{display:none}
+
+
+
+/* refund */
+#table_refund table{;width: 100%;border-spacing: 0px;border-top: 1px solid #ddd}
+#table_refund td, #table_refund th{border-bottom: 1px solid  #ddd; padding: 5px 10px;}
+#table_refund th{ background: #f5f5f5}
+
+#table_refund th{ color: #333; width: 150px }
+#table_refund input {border:1px solid #ccc;line-height: 150% }
+
+#refund{text-align: center; margin: 15px 0px 50px}
+#refund a{text-decoration: none; text-align: center; padding: 8px 20px;font-size:14px;border-radius: 3px; }
+.btn_refund a{background: #065caa;color: #fff;border:1px solid  #065caa}
+.btn_refund a:hover{background: #fff; color: #065caa;border:1px solid}
+
+
+/* dropdown */
+#dropdown_notice {display:none; width:100%;background:#0f6eaa; color:#e1eefa;}
+#dropdown_notice .frameset{width:980px; position:relative;  height:123px; }
+#dropdown_notice a{color: #e1eefa}
+#dropdown_notice .close{position:absolute;  bottom:10px; right:0px;}
+
+
+/* Button*/
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+
+.btn_bl a{background: #065caa;color: #fff;border:1px solid  #065caa; padding:8px 15px 5px; border-radius: 5px;}
+.btn_bl a:hover{background: #fff; color: #065caa;}
+
+.btn_bl input{background: #065caa;color: #fff;border:1px solid  #065caa; padding:8px 15px 5px; border-radius: 5px;}
+.btn_bl input:hover{background: #fff; color: #065caa;}
+
+.btn_gr a{background: #666;color: #fff; padding:5px 8px 2px; border-radius: 3px;}
+.btn_gr a:hover{background: #444; color: #fff;}
+
+.btn_gn a{background: #008000;color: #fff;border:1px solid  #008000; padding:8px 15px 5px; border-radius: 5px;}
+.btn_gn a:hover{background: #fff; color: #008000;}
+
+.btn_wh a{background: #fff;color: #555; padding:5px 8px 3px; border:1px solid #777; border-radius: 5px; }
+.btn_wh a:hover{background: #555; color: #fff;}
+
+.btn_wh_bl a{background: #fff;color: royalblue; padding:5px 8px 3px; border-radius: 5px; }
+.btn_wh_bl a:hover{background: rgba(255, 255, 255, 0.9); color: royalblue;}
+
+
+.btn_rd a{background: #dc143c; color: #fff; border:1px solid #dc143c; padding:3px 8px; border-radius: 5px; text-decoration:none; font-size:14px;}
+.btn_rd a:hover{background: #fff; color: #dc143c;}
+
+
+/* icon*/
+.icon_pk{border:1px solid #d82b78;background:#e35293;color:#fff;padding:3px 4px 2px; border-radius: 3px; font-size:11px;}
+
+
+/*MainBanner*/	
+#MainBanner span{width:115px; background:#F8F8FF; padding:6px 0 3px 0;border-radius:3px; letter-spacing:-0.05em; margin-bottom:6px; border:1px solid #e6e6ff;}
+#MainBanner a:link, #MainBanner a:visited {color:#0000b3;}
+#MainBanner a:active, #MainBanner a:hover{color:#4d4dff;}
+
+/* 200718 추가  */
+.lst-bluebox {overflow: hidden;margin-top: 20px;}
+.lst-bluebox dt {margin-bottom: 20px;background:#135cab;color:#fff;padding:10px;text-align:center;font-size:16px;font-weight:bold}
+.lst-bluebox dd {overflow: hidden;float: left;width: 50%;padding-bottom: 20px;}
+.lst-bluebox dd img {float: left;margin-right: 10px;}
+.lst-bluebox dd p {float: left;width: 70%;min-height: 60px;}
+
+.lst-blueline dt {border-top:2px solid #1a98cc;border-bottom:2px solid #1a98cc;background-color:#f5fbfd;color:#065caa;font-weight:bolder;text-align:center;padding:10px 0}
+.lst-blueline dd {padding: 10px;}
+
+.ipt-ok {display: block;width: 79px;height: 33px;margin: auto;background: url(/images/btn_ok.gif) 0 0 no-repeat;border: none;text-indent: -9999px;}
+
+.txt-explan {display: block;width: 100%;margin: 1em 0;color: #065caa;font-size: 14px;font-weight: bolder;letter-spacing: -0.05em;text-align: right;}
+.txt-blue {color: #065caa;font-size: 14px;font-weight: bolder;letter-spacing: -0.05em;}
+
+.vod-script {width: 640px;height:100px;margin: 0;overflow: auto; border: 1px solid lightgray; padding: 10px 20px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;
+					box-sizing: border-box;}
+
+.area-box {position: relative;}
+.area-box .dib {position: absolute;bottom: 50%;right: 0;	}
+
+.wh_apply{background:#f5f5f5; border:1px solid #ccc; color:#333; font-size:14px; letter-spacing:-0.05em; text-align:center; border-radius:5px; line-height:130%;padding:15px 0px; width:95px; box-shadow: 0px 3px 5px rgba(0, 0, 0, .1);  display:block; }
+
+.rd_apply{background:#ce4422; border:1px solid #ccc; color:#fff; font-size:14px; letter-spacing:-0.05em; text-align:center; border-radius:5px; line-height:130%;padding:15px 2px; width:95px; box-shadow: 0px 3px 5px rgba(0, 0, 0, .1); display:block; }
+
+.bl_apply{background:#065caa; color:#fff; font-size:14px; letter-spacing:-0.05em; text-align:center; border-radius:5px; line-height:130%;padding:15px 2px; width:95px; box-shadow: 0px 3px 5px rgba(0, 0, 0, .1); display:block; }

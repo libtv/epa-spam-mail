@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document 참조 */
+.fL {
+  float: left;
+}
+.fR {
+  float: right;
+}
+.cB {
+  clear: both;
+}
+.lSp_1 {
+  letter-spacing: -1px;
+}
+
+.mAuto {
+  margin: auto;
+}
+.txtL {
+  text-align: left;
+}
+.txtR {
+  text-align: right;
+}
+.txtC {
+  text-align: center;
+}
+.vaM {
+  vertical-align: middle;
+}
+
+.mT_5 {
+  margin-top: -5px;
+}
+.mT2 {
+  margin-top: 2px;
+}
+.mT5 {
+  margin-top: 5px;
+}
+.mT10 {
+  margin-top: 10px;
+}
+.mT13 {
+  margin-top: 13px;
+}
+.mT20 {
+  margin-top: 20px;
+}
+.mT30 {
+  margin-top: 30px;
+}
+
+.mB5 {
+  margin-bottom: 5px;
+}
+.mB6 {
+  margin-bottom: 6px;
+}
+.mB10 {
+  margin-bottom: 5px;
+}
+
+.mL5 {
+  margin-left: 5px;
+}
+.mL20 {
+  margin-left: 20px;
+}
+
+.mR5 {
+  margin-right: 5px;
+}
+
+.pT2 {
+  padding-top: 2px;
+}
+.pT5 {
+  padding-top: 5px;
+}
+.pT7 {
+  padding-top: 7px;
+}
+.pT10 {
+  padding-top: 10px;
+}
+.pT20 {
+  padding-top: 20px;
+}
