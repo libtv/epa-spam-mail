@@ -1,5 +1,5 @@
 # epa-spam-mail
-
+To send spam mail to a particular person in Economic Promotion Agency
 
 ## try to install 
 ```bash
